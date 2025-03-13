@@ -1,0 +1,8 @@
+name: 'MMEJ Formulaire'
+type: module
+description: 'Un module permettant la création de formulaires personnalisés.'
+core_version_requirement: ^9 || ^10
+package: 'mejdoubi'
+dependencies:
+  - drupal:field
+  - drupal:node
