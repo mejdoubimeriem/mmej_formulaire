@@ -1,0 +1,7 @@
+mmej_formulaire.contact:
+  path: '/contact-personnalise'
+  defaults:
+    _form: 'Drupal\mmej_formulaire\Form\ContactForm'
+    _title: 'Formulaire de contact'
+  requirements:
+    _permission: 'access content'
