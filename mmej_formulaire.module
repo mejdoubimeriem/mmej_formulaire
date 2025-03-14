@@ -8,7 +8,7 @@ use Drupal\Core\Form\FormStateInterface;
 function mmej_formulaire_theme($existing, $type, $theme, $path) {
   return [
     'contact_form_template' => [
-      'variables' => ['form' => NULL],
+      'render element' => 'form',
       'template' => 'contact-form',
     ],
   ];
